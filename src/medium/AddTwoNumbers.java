@@ -34,7 +34,7 @@ public class AddTwoNumbers {
                     iterated.next = new ListNode(val % 10);
                     l1 = l1.next;
                     carry = val >= 10;
-                } else if (l1 != null && l2 != null) {
+                } else {
                     int sum = l1.val + l2.val + carryValue;
                     iterated.next = new ListNode(sum % 10);
                     carry = sum >= 10;
