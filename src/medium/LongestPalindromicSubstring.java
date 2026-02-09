@@ -27,6 +27,7 @@ public String longestPalindrome(String s) {
                    bounds[0] = left;
                    bounds[1] = right;
                    maxLength = right - left;
+                   break;
                }
            }
        }
