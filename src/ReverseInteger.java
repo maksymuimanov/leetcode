@@ -15,7 +15,7 @@ public int reverse(int x) {
     int sign = 1;
     if (x < 0) sign = -1;
 
-    List<Byte> digits = new LinkedList<>();
+    List<Byte> digits = new ArrayList<>();
 
     int number = Math.abs(x);
     while (number > 0) {
